@@ -150,7 +150,7 @@ public class FileSelector {
                     if (visible == View.GONE) {
                         showHitBar();
                     }
-                    countText.setText("已选择" + selectCount + "项");
+                    countText.setText("chosen" + selectCount + "item");
                 } else {
                     if (visible == View.VISIBLE) {
                         dismissHitBar();
@@ -247,7 +247,7 @@ public class FileSelector {
             temp = FileUtils.getFileList(path);
         } catch (Exception e) {
             e.printStackTrace();
-            Toast.makeText(context, "打开失败", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Open failed", Toast.LENGTH_SHORT).show();
             return;
         }
         files.clear();
