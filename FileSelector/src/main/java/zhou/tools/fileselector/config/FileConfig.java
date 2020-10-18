@@ -31,7 +31,7 @@ public class FileConfig implements Serializable {
         theme = FileTheme.THEME_WHITE;
         filterModel = FileFilter.FILTER_NONE;
         positiveFiter = true;
-        title = "选择文件";
+        title = "Select a File";
         easyMode = false;
         rootPath="/";
         startPath="/";
