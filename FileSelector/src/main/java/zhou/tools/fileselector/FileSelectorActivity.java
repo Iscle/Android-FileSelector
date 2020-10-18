@@ -91,7 +91,7 @@ public class FileSelectorActivity extends ActionBarActivity {
 
         fileSelector.hitTitle();
 
-        setTitle(fileConfig == null ? "选择文件" : fileConfig.title);
+        setTitle(fileConfig == null ? "Select a File" : fileConfig.title);
 
         setContentView(fileSelector.getFileSelector());
 
@@ -101,7 +101,7 @@ public class FileSelectorActivity extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         if (actionBarModel) {
 
-            ok = menu.add(0, 10086, 1, "确定");
+            ok = menu.add(0, 10086, 1, "determine");
             ok.setIcon(R.drawable.ic_check_white_48dp);
             ok.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
             ok.setVisible(false);
