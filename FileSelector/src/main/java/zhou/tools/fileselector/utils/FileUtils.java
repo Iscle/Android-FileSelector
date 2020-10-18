@@ -31,7 +31,7 @@ public class FileUtils {
                 if (!path.equals(FileSelector.rootPath)) {
 
                     HashMap<String, Object> up = new HashMap<>(3);
-                    up.put(FileSelector.NAME, "Back to previous");
+                    up.put(FileSelector.NAME, "Back to previous folder");
                     up.put(FileSelector.ICON, FileSelector.theme.upfolder);
                     up.put(FileSelector.PATH, path);
                     up.put(FileSelector.TYPE, FileType.UPTO);
