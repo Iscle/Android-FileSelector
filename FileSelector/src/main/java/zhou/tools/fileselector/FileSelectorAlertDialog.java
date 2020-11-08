@@ -59,6 +59,10 @@ public class FileSelectorAlertDialog {
     public void show(){
         alertDialog.show();
     }
+    
+    public void dismiss(){
+        alertDialog.dismiss();
+    }
 
     public static interface OnSelectFinishListener {
         public void selectFinish(ArrayList<String> paths);
